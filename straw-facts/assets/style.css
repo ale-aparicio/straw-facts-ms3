@@ -15,6 +15,21 @@ a {
 li {
     list-style-type: none;
 }
+
+.box {
+    background-color: #FF7040;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+}
+
+.bg-page{
+    background-color: #A1E4F9;
+}
+
+.sections {
+    padding: 20px;
+}
 /* ----------------Heading -------------*/
 .bg-color-navbar {
     background-color: #0094E8;
@@ -93,4 +108,14 @@ li {
 
 .social-links:hover{
     color: grey;
+}
+
+/* ----------------Home Page Content -------------*/
+.box img {
+    width: 100%;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
 }
