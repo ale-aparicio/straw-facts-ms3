@@ -12,7 +12,9 @@ a {
     display: inline-block;
 }
 
-
+li {
+    list-style-type: none;
+}
 /* ----------------Heading -------------*/
 .bg-color-navbar {
     background-color: #0094E8;
@@ -22,13 +24,21 @@ a {
 }
 .navbar-brand {
     font-family: 'Pirata One', sans-serif;
-    font-size: 72px;
+    font-size: 65px;
+    margin-right: 20px;
+    padding: 0px;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .navbar-brand:hover{
     color: grey;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-link {
@@ -44,7 +54,7 @@ a {
 
 .nav-search {
     background-color: #8DC8EA;
-    width: 342px;
+    width: 300px;
     height: 47px;
     border: none;
     border-radius: 5px;
@@ -53,4 +63,34 @@ a {
 
 .nav-search:hover {
     background-color: #70A0BB;
+}
+
+#search-btn {
+    background-color: #0094E8;
+    height: 47px;
+    border: none;
+    padding: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#search-btn:hover {
+    background-color: #70A0BB;
+}
+
+/* ----------------Footer -------------*/
+.bg-color-footer {
+    background-color: #0094E8;
+}
+
+.social-links {
+    color: white;
+    font-family: 'Piedra', sans-serif;
+    font-size: 35px;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.social-links:hover{
+    color: grey;
 }
