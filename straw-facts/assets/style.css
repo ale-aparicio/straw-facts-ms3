@@ -1,0 +1,56 @@
+/* ----------------Fonts -------------*/
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Pirata+One&display=swap');
+
+
+/* ----------------Special Classes -------------*/
+a {
+    text-decoration: none !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
+/* ----------------Heading -------------*/
+.bg-color-navbar {
+    background-color: #0094E8;
+}
+.navbar {
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+}
+.navbar-brand {
+    font-family: 'Pirata One', sans-serif;
+    font-size: 72px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand:hover{
+    color: grey;
+}
+
+.nav-link {
+    font-family: 'Piedra', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link:hover {
+    color:grey
+}
+
+.nav-search {
+    background-color: #8DC8EA;
+    width: 342px;
+    height: 47px;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.nav-search:hover {
+    background-color: #70A0BB;
+}
