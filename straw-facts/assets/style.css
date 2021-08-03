@@ -6,6 +6,7 @@
 /* ----------------Special Classes -------------*/
 a {
     text-decoration: none !important;
+    color: none;
 }
 
 .inline-block{
@@ -14,6 +15,10 @@ a {
 
 li {
     list-style-type: none;
+}
+
+.row {
+    margin: 0px;
 }
 
 .box {
@@ -25,15 +30,23 @@ li {
 
 .bg-page{
     background-color: #A1E4F9;
+    padding: 10px;
 }
 
 .sections {
-    padding: 20px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+.mt-15 {
+    margin-top: 15px;
 }
 /* ----------------Heading -------------*/
 .bg-color-navbar {
@@ -116,6 +129,16 @@ ul {
 }
 
 /* ----------------Home Page Content -------------*/
+
+.sections-2 {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+
 .box img {
     width: 100%;
 }
@@ -129,14 +152,43 @@ img {
 .box-text{
     color: white;
     font-family: 'Piedra', sans-serif;
-    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
-.box-text h2 {
-    font-size: 90px;
+h2.box-text {
+    font-size: 50px;
+    text-align: center;
 }
 
-.box-text p {
-    font-size: 50px;
+p.box-text {
+    font-size: 30px;
+}
+
+h4.box-text {
+    font-size: 45px;
+    text-align: center;
+}
+
+p.news{
+    font-size: 15px;
+}
+
+p.categories {
+    display: inline-block;
+}
+
+.box-links {
+    width: 50%;
+    font-family: 'Piedra', sans-serif;
+    font-size: 31px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.box-links:hover {
+    color: grey;
+}
+
+a.categories.right {
+    float: right;
 }
