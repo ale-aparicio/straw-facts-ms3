@@ -119,10 +119,19 @@ ul {
     background-color: #0094E8;
 }
 
+.nav-link.footer-link {
+    font-size: 3vh;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px;
+}
+
 .social-links {
     color: white;
     font-family: 'Piedra', sans-serif;
-    font-size: 35px;
+    font-size: 3vh;
     padding: 10px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
