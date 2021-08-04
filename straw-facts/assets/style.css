@@ -207,6 +207,40 @@ a.categories.right {
     float: right;
 }
 
+/* ----------------Explore Page Content -------------*/
+.banner {
+    width: 100%;
+    max-height: 500px;
+}
+
+.page-title {
+    font-family: 'Piedra', sans-serif;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.btn-container {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Piedra', sans-serif;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.explore-btn img {
+    width: 100%;
+    max-width: fit-content;
+    max-height: 300px;
+    border-radius: 5px;
+}
+
+
+
+
 /* ----------------Special Classes for Desktop -------------*/
 
 /* ---Boxes and Sections ---*/
