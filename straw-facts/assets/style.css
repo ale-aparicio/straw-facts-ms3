@@ -221,20 +221,23 @@ a.categories.right {
     text-align: center;
 }
 
+.explore-content{
+    padding: 0px;
+}
+
 .btn-container {
-    padding: 20px;
+    padding: 10px;
     align-items: center;
     text-align: center;
     font-family: 'Piedra', sans-serif;
-    font-size: 6vh;
+    font-size: 4vh;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .explore-btn img {
     width: 100%;
-    max-width: fit-content;
-    max-height: 300px;
+    max-height: 280px;
     border-radius: 5px;
 }
 
@@ -247,5 +250,9 @@ a.categories.right {
 @media only screen and (min-width:768px){
     .sections {
         padding-right: 15px;
+    }
+
+    .explore-btn img {
+        max-width: 700px;
     }
 }
