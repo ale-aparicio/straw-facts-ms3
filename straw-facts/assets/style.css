@@ -241,6 +241,11 @@ a.categories.right {
     border-radius: 5px;
 }
 
+/* ----------------Media Page Content -------------*/
+
+h5.box-text {
+    font-size: 4vh;
+}
 
 
 
