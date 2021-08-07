@@ -255,9 +255,10 @@ p.media {
     margin: 10px;
 }
 
-.btn-container.character-name {
+.character-name {
     align-items: baseline;
 }
+
 
 
 
