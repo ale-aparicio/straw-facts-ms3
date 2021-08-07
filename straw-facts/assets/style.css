@@ -255,7 +255,7 @@ p.media {
     margin: 10px;
 }
 
-.character-name {
+.btn-container.character-name {
     align-items: baseline;
 }
 /* ----------------Special Classes for Desktop -------------*/
