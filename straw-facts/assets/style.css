@@ -250,6 +250,20 @@ h5.box-text {
 p.media {
     font-size: 3vh;
 }
+/* ----------------Characters Page Content -------------*/
+.character-btn {
+    margin: 10px;
+}
+
+.btn-container.character-name {
+    align-items: baseline;
+}
+
+
+
+
+
+
 /* ----------------Special Classes for Desktop -------------*/
 
 /* ---Boxes and Sections ---*/
